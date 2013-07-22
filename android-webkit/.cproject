@@ -22,11 +22,28 @@
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1894838405" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.60560316" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.1675651837" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1387338868" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WTF_USE_ACCELERATED_COMPOSITING=1"/>
+									<listOptionValue builtIn="false" value="WTF_PLATFORM_ANDROID=1"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.257304392" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/frameworks/native/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/system/core/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.190513331" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1596337885" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
 								<option id="gnu.cpp.compiler.option.optimization.level.682462701" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.debugging.level.647428268" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.2087464166" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WTF_USE_ACCELERATED_COMPOSITING=1"/>
+									<listOptionValue builtIn="false" value="WTF_PLATFORM_ANDROID=1"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.791164162" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/frameworks/native/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/external/webkit/Source/JavaScriptCore}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/system/core/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.445491961" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.985979343" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
@@ -38,14 +55,24 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1202697306" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.114381783" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.586638595" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/frameworks/native/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/system/core/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.767902065" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="a-src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/external/webkit"/>
+						<entry excluding="Source/WebCore/ForwardingHeaders|Source/WebCore/accessibility/wx|Source/WebCore/accessibility/win|Source/WebCore/accessibility/qt|Source/WebCore/accessibility/mac|Source/WebCore/accessibility/gtk|Source/WebCore/accessibility/efl|Source/WebCore/bridge/qt|Source/WebCore/bridge/objc|Source/WebCore/bridge/jsc|Source/WebCore/platform/graphics/wx|Source/WebCore/platform/graphics/wince|Source/WebCore/platform/graphics/win|Source/WebCore/platform/graphics/qt|Source/WebCore/platform/graphics/mac|Source/WebCore/platform/graphics/haiku|Source/WebCore/platform/graphics/gtk|Source/WebCore/platform/graphics/gstreamer|Source/WebCore/platform/graphics/efl|Source/WebCore/platform/graphics/cocoa|Source/WebCore/platform/graphics/cg|Source/WebCore/platform/graphics/cairo|Source/WebCore/platform/graphics/ca|Source/WebCore/platform/graphics/brew|Source/WebCore/platform/graphics/avfoundation|Source/WebCore/platform/wx|Source/WebCore/platform/wince|Source/WebCore/platform/win|Source/WebCore/platform/qt|Source/WebCore/platform/mock|Source/WebCore/platform/mac|Source/WebCore/platform/iphone|Source/WebCore/platform/haiku|Source/WebCore/platform/gtk|Source/WebCore/platform/efl|Source/WebCore/platform/cocoa|Source/WebCore/platform/cf|Source/WebCore/platform/brew|Source/WebCore/page/wx|Source/WebCore/page/wince|Source/WebCore/page/win|Source/WebCore/page/qt|Source/WebCore/page/mac|Source/WebCore/page/haiku|Source/WebCore/page/gtk|Source/WebCore/page/efl|Source/WebCore/page/brew|Source/WebCore/bindings/objc|Source/WebCore/bindings/js|Source/WebCore/bindings/gobject|Source/WebCore/bindings/cpp|Source/WebKit.pro|Source/WebKit.pri|Source/sync.profile|Source/Makefile.shared|Source/Makefile|Source/DerivedSources.pro|Source/common.pri|Source/CMakeLists.txt|Source/cmakeconfig.h.cmake|Source/WebKit2|Source/WebKit|Source/JavaScriptGlue|Source/JavaScriptCore|Source/gyp|Source/cmake|Source/autotools|WEBKIT_MERGE_REVISION|NOTICE|MODULE_LICENSE_LGPL|CleanSpec.mk|Android.mk|WebKitLibraries|WebKitBuild|Tools|PerformanceTests|LayoutTests|Examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/external/webkit"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/external/webkit/Source/JavaScriptCore/wtf"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/external/webkit/Source/WebKit/android"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/frameworks/native/libs"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/frameworks/native/opengl"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/frameworks/native/services"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/out/target/product/maguro/obj/STATIC_LIBRARIES/libwebcore_intermediates/Source/WebCore"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/system/core/include"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -72,11 +99,27 @@
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1744875651" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1881111946" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.2045492047" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1648230435" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WTF_USE_ACCELERATED_COMPOSITING=1"/>
+									<listOptionValue builtIn="false" value="WTF_PLATFORM_ANDROID=1"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.777229854" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/frameworks/native/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/system/core/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2053025421" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1070941197" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
 								<option id="gnu.cpp.compiler.option.optimization.level.139978746" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.debugging.level.679354839" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.109001840" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WTF_USE_ACCELERATED_COMPOSITING=1"/>
+									<listOptionValue builtIn="false" value="WTF_PLATFORM_ANDROID=1"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.1250916388" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/frameworks/native/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/system/core/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1175928215" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1168614171" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
@@ -88,6 +131,10 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1801539012" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1583477551" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.156957896" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/frameworks/native/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/android-webkit/a-src/system/core/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.790769924" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
