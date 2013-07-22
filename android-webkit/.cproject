@@ -44,6 +44,8 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="a-src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/external/webkit"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="a-src/out/target/product/maguro/obj/STATIC_LIBRARIES/libwebcore_intermediates/Source/WebCore"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
